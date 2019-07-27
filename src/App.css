@@ -2,32 +2,119 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#order-page {
+  background: #fcfcfc;
+  max-width: 950px;
+  margin: auto;
+  padding: 20px;
+  border: #e2e2e2 solid 1px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.extendable-table-container {
+  background: #fcfcfc;
+  margin: 50px auto;
+  padding: 1rem 2rem;
+  max-width: 900px;
+  overflow: hidden;
+}
+
+.extendable-table-wrapper {
+  /* padding: 30px; */
+}
+
+
+.dropdown-header-wrapper {
+  padding: 0 30px;
+  text-align: left;
+  background: white;
+  border: #e2e2e2 solid 1px;
+}
+
+.head-dropdown.left p {
+  text-transform: uppercase;
+}
+
+tbody {
+  background: white;
+  border: solid 1px e2e2e2;
+}
+
+thead > tr > th {
+  text-transform: capitalize;
+  padding: 15px 5px;
+}
+
+
+table.extendable-table thead tr {
+  background: #fcfcfc;
+}
+
+table {
+  table-layout: fixed ;
+  width: 100% ;
+  border-collapse:collapse;
+}
+
+tr {
+  border-bottom: solid 1px #e2e2e2;
+}
+
+td, th {
+  text-align: left;
+}
+
+
+.head-dropdown {
+  margin: 8px 11px 3px 0px;
+  display: inline-block;
+}
+
+i {
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 4px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  margin-right: 12px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: red;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.more-btn:hover {
+  background: #4FBFD8;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bottom-button-wrapper > div > button.more-btn {
+  margin: 30px auto 5px;
+  border: solid 1px #4FBFD8;
+  color: #4FBFD8;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.more-btn {
+  border-radius: 60%;
+  height: 40px;
+  weight: 50px;
+  font-size: 15px;
+  padding: 10px;
+  margin: 15px;
 }
